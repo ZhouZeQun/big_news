@@ -10,7 +10,7 @@ body {
 .login-box {
     position: absolute;
     width: 400px;
-    height: 310px;
+    height: 350px;
     background-color: #fff;
     top: 0;
     bottom: 0;
@@ -25,4 +25,25 @@ body {
 }
 .reg-wrap {
     display: none;
+}
+.layui-form {
+    padding: 30px;
+}
+.links {
+    display: flex;
+    justify-content: end;
+}
+.links a {
+    font-size: 12px;
+}
+.layui-form-item {
+    position: relative;
+}
+.layui-icon {
+    position: absolute;
+    top: 10px;
+    left: 10px;
+}
+.layui-input {
+    padding-left: 35px;
 }
